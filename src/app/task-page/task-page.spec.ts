@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AgregarTarea } from './agregar-tarea';
+import { TaskPage } from './task-page';
 
-describe('AgregarTarea', () => {
-  let component: AgregarTarea;
-  let fixture: ComponentFixture<AgregarTarea>;
+describe('TaskPage', () => {
+  let component: TaskPage;
+  let fixture: ComponentFixture<TaskPage>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AgregarTarea]
+      imports: [TaskPage]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AgregarTarea);
+    fixture = TestBed.createComponent(TaskPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
